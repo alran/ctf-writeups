@@ -48,7 +48,7 @@ image[x, y] = color
 As the name suggests, chunky_png only generates png files. We found another gem called mini_magick that could convert the 
 file easily to jpg (image_magick also does this, but it has dependencies we didn't want to deal with).
 
-```
+```ruby
 converted_image = MiniMagick::Image.open(img_name)
 converted_image.format 'jpeg'
 converted_image.write 'qrstuff.jpg'
@@ -58,14 +58,14 @@ Our last step was to bring in a ruby library called 'zbar' to decode the QR show
 with multiple libraries as part of this process, but desperately wanted to reduce our number of dependencies.
 
 
-```
+```ruby
 qr_read = ZBar::Image.from_jpeg(File.binread('qrstuff.jpg')).process
 qr_read.first.data
 ```
 
 In our final script, we connected via a ruby TCPSocket
 
-```
+```ruby
 require 'socket'
 ...
 socket = TCPSocket.new('kajer.openctf.com', 37)
@@ -75,7 +75,7 @@ We ran our script and let it sit for a few minutes while it decoded all the QR c
 name spell itself out :)
 
 ## Full code:
-```
+```ruby
 require 'zbar'
 require 'chunky_png'
 require 'socket'
