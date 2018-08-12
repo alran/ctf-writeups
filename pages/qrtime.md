@@ -2,7 +2,9 @@
 In this challenge, we were given an ip address. With netcat, we discovered that it was outputting a TCP stream of text,
 formatted to look like QR codes.
 
-`nc <IP ADDRESS>`
+```
+nc <IP ADDRESS>
+```
 
 Here is an example section of a QR code:
 
