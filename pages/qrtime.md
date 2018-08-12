@@ -23,13 +23,14 @@ The TCP stream output a new QR code every second, with an updated timestamp. We 
 ```
 
 ## Solution:
-We looked up ruby libraries for decoding QR codes and found that most required an image file to work properly. 
+We looked up ruby libraries for decoding QR codes and found that most required an image file to work properly.
 
-Step 1: Turn the text strings formatted to look like a QR code into an image file
-Step 2: Use a library to decode the QR code image
+Our plan:
+1. Turn the text strings formatted to look like a QR code into an image file
+2. Use a library to decode the QR code image
 
-For step one, we found a ruby library called chunky_png that would allow us to manually create an image, pixel by pixel,
-using x and y coordinates.
+For step one, we found a ruby library called [chunky_png](http://chunkypng.com/) that would allow us to manually create 
+an image, pixel by pixel, using x and y coordinates.
 
 Each line of text was actually two lines of the QR code. We split each line of text into a top and bottom half, then
 iterated through each character and assined the x and y coordinate for that character to either be black or white. The QR code
@@ -47,7 +48,7 @@ image = ChunkyPNG::Image.new(PIXEL_SIZE, PIXEL_SIZE, ChunkyPNG::Color::WHITE)
 image[x, y] = color
 ```
 
-As the name suggests, chunky_png only generates png files. We found another gem called mini_magick that could convert the 
+As the name suggests, chunky_png only generates png files. We found another gem called [mini_magick](https://github.com/minimagick/minimagick) that could convert the 
 file easily to jpg (image_magick also does this, but it has dependencies we didn't want to deal with).
 
 ```ruby
@@ -56,7 +57,7 @@ converted_image.format 'jpeg'
 converted_image.write 'qrstuff.jpg'
 ```
 
-Our last step was to bring in a ruby library called 'zbar' to decode the QR shown in our newly created images. We played
+Our last step was to bring in a ruby library called [zbar](https://github.com/willglynn/ruby-zbar) to decode the QR shown in our newly created images. We played
 with multiple libraries as part of this process, but desperately wanted to reduce our number of dependencies.
 
 
