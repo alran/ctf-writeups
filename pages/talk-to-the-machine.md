@@ -17,19 +17,19 @@ order.
 
 Base64 decoding is fairly straightforward in ruby.
 
-```
+```ruby
 Base64.decode64(string)
 ```
 
 To convert the morse code, we wrote a simple script that split the data at ' ' and converted the data to an ascii character.
 
-```
+```ruby
 morse_code.split(' ').map { |letter| morse_dict[letter] }.join('').upcase
 ```
 
 For the last two types, we used ruby's `pack` method to convert the binary and hex strings into human-readable format.
 
-```
+```ruby
 [binary_data].pack("B*")
 ...
 [hex.tr(' ', '')].pack('H*')
@@ -38,7 +38,7 @@ For the last two types, we used ruby's `pack` method to convert the binary and h
 Last, we created a simple loop that requested bytes from the socket, decoded the data based on the question number (we kept 
 track of this as part of the script), and sent the answer back to the socket.
 
-```
+```ruby
 loop do
   response = socket.recv(1000)
   question = response.split("\n")[0]
@@ -55,7 +55,7 @@ get the flag once we reached the end.
 
 ## Full code:
 
-```
+```ruby
 require 'socket'
 require 'base64'
 
