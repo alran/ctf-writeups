@@ -21,3 +21,7 @@ X-Forwarded-For: <Local IP>, <Local IP>, <Local IP>, <Local IP>
 ```
 
 This request allowed us to bypass the 403 and get the flag.
+
+___
+
+Def Con 2018 - OpenCTF - Aug 12, 2018
