@@ -24,7 +24,7 @@ Base64.decode64(string)
 To convert the morse code, we wrote a simple script that split the data at ' ' and converted the data to an ascii character.
 
 ```ruby
-morse_code.split(' ').map { |letter| morse_dict[letter] }.join('').upcase
+morse_code.split(' ').map { |letter| morse_dictionary[letter] }.join('')
 ```
 
 For the last two types, we used ruby's `pack` method to convert the binary and hex strings into human-readable format.
