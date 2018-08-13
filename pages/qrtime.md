@@ -207,3 +207,8 @@ loop do
   qr, rest = chop_first_qr(rest)
 end
 ```
+
+
+___
+
+Def Con 2018 - OpenCTF - Aug 12, 2018
