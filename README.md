@@ -1,9 +1,9 @@
 # CTF Writeups Index
 
-[QRClock](/ctf-writeups/pages/qrtime.html)
+### [QRClock](/ctf-writeups/pages/qrtime.html) [scripting]
 
-[Talk to the Machine](/ctf-writeups/pages/talk-to-the-machine)
+### [Talk to the Machine](/ctf-writeups/pages/talk-to-the-machine) [binary, reverse]
 
-[Yo Dawg](/ctf-writeups/pages/yodawg)
+### [Yo Dawg](/ctf-writeups/pages/yodawg) [encryption]
 
-[Forbidden](/ctf-writeups/pages/forbidden)
+### [Forbidden](/ctf-writeups/pages/forbidden) [web]
