@@ -53,7 +53,12 @@ In hex, there are only 6 characters, A - F. In our text, there are also only
 6 characters, N - F. We shifted all letters up so that the N's were A's and the
 S's were F's.
 
-Voila! This presented up with a valid base64 encoded string.
+We ran this valid hex through Ruby's pack method and, voila! This presented us
+with a valid base64 encoded string.
+
+```ruby
+[hex].pack('H*')
+```
 
 We ran this through a base64 decoder and got the flag.
 
