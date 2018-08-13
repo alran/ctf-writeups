@@ -54,3 +54,8 @@ S's were F's.
 Voila! This presented up with a valid base64 encoded string.
 
 We ran this through a base64 decoder and got the flag.
+
+
+___
+
+Def Con 2018 - OpenCTF - Aug 12, 2018
