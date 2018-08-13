@@ -96,3 +96,7 @@ loop do
   socket.write(answer + "\n")
 end
 ```
+
+___
+
+Def Con 2018 - OpenCTF - Aug 12, 2018
