@@ -7,3 +7,5 @@
 ### [Yo Dawg](/ctf-writeups/pages/yodawg) [encryption]
 
 ### [Forbidden](/ctf-writeups/pages/forbidden) [web]
+
+### [Here's Johnny](/ctf-writeups/pages/heres-johnny) [cryptography]
