@@ -9,3 +9,5 @@
 ### [Forbidden](/ctf-writeups/pages/forbidden) [web]
 
 ### [Here's Johnny](/ctf-writeups/pages/heres-johnny) [cryptography]
+
+### [Artisanal Handcrafted HTTP](/ctf-writeups/pages/artisanal-handcrafted-http) [web]
