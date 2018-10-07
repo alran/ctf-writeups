@@ -11,3 +11,5 @@
 ### [Here's Johnny](/ctf-writeups/pages/heres-johnny) [cryptography]
 
 ### [Artisanal Handcrafted HTTP](/ctf-writeups/pages/artisanal-handcrafted-http) [web]
+
+### [Reset Me](/ctf-writeups/pages/reset-me) [web]
