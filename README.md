@@ -13,3 +13,5 @@
 ### [Artisanal Handcrafted HTTP](/ctf-writeups/pages/artisanal-handcrafted-http) [web]
 
 ### [Reset Me](/ctf-writeups/pages/reset-me) [web]
+
+### [Simple Question](/ctf-writeups/pages/simple-question) [web]
