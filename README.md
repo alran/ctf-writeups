@@ -10,8 +10,10 @@
 
 ### [Here's Johnny](/ctf-writeups/pages/heres-johnny) [cryptography]
 
-### [Artisanal Handcrafted HTTP](/ctf-writeups/pages/artisanal-handcrafted-http) [web]
+### [Artisanal Handcrafted HTTP](/ctf-writeups/pages/artisanal-handcrafted-http) [web, http]
 
 ### [Reset Me](/ctf-writeups/pages/reset-me) [web]
 
 ### [Simple Question](/ctf-writeups/pages/simple-question) [web]
+
+### [The Parrot](/ctf-writeups/pages/the-parrot) [cryptography, pdf]
