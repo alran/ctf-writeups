@@ -17,3 +17,5 @@
 ### [Simple Question](/ctf-writeups/pages/simple-question) [web]
 
 ### [The Parrot](/ctf-writeups/pages/the-parrot) [cryptography, pdf]
+
+### [Jail](/ctf-writeups/pages/jail) [reverse]
