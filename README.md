@@ -21,3 +21,5 @@
 ### [Jail](/ctf-writeups/pages/jail) [reverse]
 
 ### [Megahash](/ctf-writeups/pages/megahash) [cryptography, reverse]
+
+### [Tellme](/ctf-writeups/pages/tellme) [reverse, binary]
