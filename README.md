@@ -19,3 +19,5 @@
 ### [The Parrot](/ctf-writeups/pages/the-parrot) [cryptography, pdf]
 
 ### [Jail](/ctf-writeups/pages/jail) [reverse]
+
+### [Megahash](/ctf-writeups/pages/megahash) [cryptography, reverse]
